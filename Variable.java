@@ -1,13 +1,14 @@
 public class Variable {
-	public static void main (String[] args) {
-		int cpu = 4; //Number of cores
-		byte sizeVcard = 64; //64 MB accelerator
-		short ram = 32; //Memory capacity
-		long sizeHdd = 1000000; //Size in MB
-		double frequency = 3.500d; //CPU frequency
-		float perfomance = 5.54f; //Perfomance pc
+	public static void main(String[] args) {
+		int cpu = 4;
+		byte sizeVcard = 64;
+		short ram = 32;
+		long sizeHdd = 1000000;
+		double frequency = 3.500d;
+		float perfomance = 5.54f; 
 		char symbol = 'X';
-		boolean check = true;
+		boolean ischeck = true;
+
 		System.out.println(cpu);
 		System.out.println(sizeVcard);
 		System.out.println(ram);
@@ -15,6 +16,6 @@ public class Variable {
 		System.out.println(frequency);
 		System.out.println(perfomance);
 		System.out.println(symbol);
-		System.out.println(check);
+		System.out.println(ischeck);
 	}
 }
