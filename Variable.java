@@ -7,7 +7,7 @@ public class Variable {
 		double frequency = 3.500d;
 		float perfomance = 5.54f; 
 		char symbol = 'X';
-		boolean ischeck = true;
+		boolean isCheck = true;
 
 		System.out.println(cpu);
 		System.out.println(sizeVcard);
@@ -16,6 +16,6 @@ public class Variable {
 		System.out.println(frequency);
 		System.out.println(perfomance);
 		System.out.println(symbol);
-		System.out.println(ischeck);
+		System.out.println(isCheck);
 	}
 }
