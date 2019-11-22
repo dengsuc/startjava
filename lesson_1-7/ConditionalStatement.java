@@ -10,23 +10,19 @@ public class ConditionalStatement {
 		char firstName = 'M';
 
 		if(age > num) {
-			System.out.println("Вы проходите по возрасту");
+			System.out.println("Вы проходите по возрасту, вам " + age);
 		}
-
 		if(isMan == true) {
 			System.out.println("Это мужской пол");
 		}
-
 		if(isMan == false) {
 			System.out.println("Это женский пол");
 		}
-
 		if(height < heightt) {
 			System.out.println("Вы слишком малы ростом");
 		} else {
 			System.out.println("Рост подходящий");
 		}
-
 		if(firstName == symbol) {
 			System.out.println("Первая буква имени верная");
 		} else if(firstName == symb) {
