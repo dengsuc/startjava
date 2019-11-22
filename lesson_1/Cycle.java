@@ -4,16 +4,20 @@ public class Cycle {
 			System.out.println(i + " ");	
 		}
 
-		int k = 6;
-		while (k >= -6) {
-			System.out.println(k + " ");
-			k-=2;
+		int i = 6;
+		while (i >= -6) {
+			System.out.println(i + " ");
+			i-=2;
 		}
 
-		int t = 9;
+		int result = 1;
+		int i1 = 9;
 		do {
-			t+=2;
-			System.out.println(t + " ");		
-		} while (t < 19);	
+			result = result + i1;
+			if(result % 2 == 0) {
+				System.out.println(result + " ");
+			}
+			i1++;			
+		} while (i1 <= 20);	
 	}
 }
