@@ -6,12 +6,12 @@ public class Cycle {
 		int k = 6;
 		while (k >= -6) {
 			System.out.println(k + " ");
-			k = k + 1;
+			k = k - 2;
 		}
-		int t = 10;
+		int t = 9;
 		do {
-			t = t + 1;
-			System.out.println(t + " ");
-		} while (t <= 20);	
+			t = t + 2;
+			System.out.println(t + " ");		
+		} while (t < 19);	
 	}
 }

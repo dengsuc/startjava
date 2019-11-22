@@ -20,13 +20,13 @@ public class ConditionalStatement {
 			System.out.println("Рост подходящий");
 		}
 
-		char symbol = 'M';
-		char symb = 'I';
-		char firstName = 'M';
-		if(firstName == symbol) {
-			System.out.println("Первая буква имени верная");
-		} else if(firstName == symb) {
-			System.out.println("Первая буква имени неверная");
+		char firstSymbol = 'M';
+		char secondSymbol = 'M';
+		char unSymbol = 'I';
+		if(firstSymbol == secondSymbol) {
+			System.out.println("Символы совпадают");
+		} else if(firstSymbol == unSymbol) {
+			System.out.println("Символы не совпадают");
 		} else {
 			System.out.println("Неверный ответ");
 		}
