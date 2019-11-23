@@ -9,7 +9,7 @@ public class ConditionalStatement {
 		if(isMan) {
 			System.out.println("Это мужской пол");
 		}
-		if(!isMan == false) {
+		if(!isMan) {
 			System.out.println("Это женский пол");
 		}
 
