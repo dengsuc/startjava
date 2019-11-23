@@ -7,17 +7,17 @@ public class Cycle {
 		int i = 6;
 		while (i >= -6) {
 			System.out.println(i + " ");
-			i-=2;
+			i -= 2;
 		}
 
-		int result = 1;
-		int i1 = 10;
+		int sumOdd = 0;
+		int counter = 10;
 		do {
-			result = result + i1;
-			if(result % 2 == 0) {
-				System.out.println(result + " ");
+			if(sumOdd % 2 == 0) {
+				sumOdd = sumOdd + counter;
+				System.out.println(sumOdd + " ");
 			}
-			i1++;			
-		} while (i1 < 20);	
+			counter++;			
+		} while (counter <= 20);	
 	}
 }
