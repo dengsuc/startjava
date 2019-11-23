@@ -14,7 +14,7 @@ public class Cycle {
 		int counter = 10;
 		do {
 			if(sumOdd % 2 == 0) {
-				sumOdd = sumOdd + counter;
+				sumOdd += counter;
 				System.out.println(sumOdd + " ");
 			}
 			counter++;			

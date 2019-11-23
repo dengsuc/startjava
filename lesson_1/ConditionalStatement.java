@@ -6,10 +6,10 @@ public class ConditionalStatement {
 		}
 
 		boolean isMan = true;
-		if(isMan == true) {
+		if(isMan) {
 			System.out.println("Это мужской пол");
 		}
-		if(isMan == false) {
+		if(!isMan == false) {
 			System.out.println("Это женский пол");
 		}
 
@@ -20,13 +20,11 @@ public class ConditionalStatement {
 			System.out.println("Рост подходящий");
 		}
 
-		char firstSymbol = 'M';
-		char secondSymbol = 'M';
-		char unSymbol = 'I';
-		if(firstSymbol == secondSymbol) {
-			System.out.println("Символы совпадают");
-		} else if(firstSymbol == unSymbol) {
-			System.out.println("Символы не совпадают");
+		char firstLetterOfName = 'M';
+		if(firstLetterOfName == 'M') {
+			System.out.println("Первая буква имени М");
+		} else if(firstLetterOfName == 'I') {
+			System.out.println("Это не первая буква имени");
 		} else {
 			System.out.println("Неверный ответ");
 		}
